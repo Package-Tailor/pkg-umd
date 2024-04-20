@@ -1,6 +1,6 @@
 {
   "name": "pkg-umd",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Provide a umd module for the official not provided umd module.",
   "scripts": {
     "build": "rollup -c",
@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "ZedHertz",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "solid-js": "^1.8.16"
   },
