@@ -1,7 +1,7 @@
 {
   "name": "pkg-umd",
   "version": "0.1.0",
-  "description": "Convert any package to umd module which teh official not provided umd module.",
+  "description": "Provide a umd module for the official not provided umd module.",
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
