@@ -1,9 +1,10 @@
 {
   "name": "pkg-umd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provide a umd module for the official not provided umd module.",
   "scripts": {
     "build": "rollup -c",
+    "prepublishOnly": "pnpm build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
