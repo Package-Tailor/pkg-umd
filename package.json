@@ -1,0 +1,23 @@
+{
+  "name": "pkg-umd",
+  "version": "0.1.0",
+  "description": "Convert any package to umd module which teh official not provided umd module.",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ZedHertz",
+  "license": "MIT",
+  "dependencies": {
+    "solid-js": "^1.8.16"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.15.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
